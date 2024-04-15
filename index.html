@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e3b8812323.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+      <video src="videos/low-quality.mp4" controls id="main-video"></video>
+
+      <div class="row">
+        <div class="icons">
+          <i class="fa-solid fa-volume-high"></i>
+          <i class="fa-solid fa-volume-xmark"></i>
+          <i class="fa-solid fa-backward"></i>
+          <i class="fa-solid fa-pause"></i>
+          <i class="fa-solid fa-play"></i>
+          <i class="fa-solid fa-forward"></i>
+          <input type="range" name="volume" min="0" max="100">
+          <label for="volume"><i class="fa-solid fa-volume-low"></i></label>
+          <select id="swap">
+            <option value="videos/low-quality.mp4">360p</option>
+            <option value="videos/high-quality.mp4">720p</option>
+          </select>
+          <a class="download"><button>Download</button></a>
+          <i class="fa-solid fa-expand"></i>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

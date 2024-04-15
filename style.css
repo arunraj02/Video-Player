@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    background: url(images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#main-video{
+    width: 50%;
+    position: relative;
+    top: 10%;
+    left: 25%;
+}
+
+.row{
+    width: 50%;
+    background-color: #001021;
+    color: #fdfdfd;
+    position: absolute;
+    left: 25%;
+    top:71%
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.fa-solid:hover{
+    color: #1fa5ce;
+}
+
+.download button{
+    padding: 8px 16px;
+    cursor: pointer;
+}
